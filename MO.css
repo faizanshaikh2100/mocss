@@ -1,0 +1,134 @@
+body {
+    font-family: 'helvetica', 'sans-serif';
+    margin: 0;
+}
+/*main part*/
+h1, h2, h3, h4, h5 {
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+/*main part ends*/
+/* header design*/
+header {
+    background-color: #131313;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #FFB320;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #eee;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#login-register-button {
+    background-color: rgb(32, 255, 255);
+    color: #1b1b1b;
+    border-radius: 0px;
+    padding: 10px 15px;
+    font-size: 0.85em;
+    font-weight: 600;
+    top: 0%;
+    left: 90%;
+    position: inherit;
+    
+}
+a:hover
+{ background-color: rgb(32, 255, 255);
+box-shadow: 0 0 10px rgb(32, 255, 255),0 0 10px rgb(32, 255, 255),0 0 40px rgb(32, 255, 255),0 0 80px rgb(32, 255, 255)
+;
+text-emphasis-color: white;}
+/* header design ends */
+
+/* main frame starts */
+#main {
+    background: url(https://wallpapershome.com/images/pages/pic_h/15066.jpg)top center no-repeat;
+    height: 820px;
+    width: 1520px;
+    font-family: fantasy;
+    position: absolute;
+    align-items: center;
+    background-position: top;
+    background-position-x: center;
+}
+
+.hero-marketing-text {
+
+    max-width: 1200px;
+    margin: -30px auto 0;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+}
+
+.hero-marketing-text h1 {
+    color: #eee;
+    font-size: 3.5em;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+.hero-marketing-text span {
+    color: #FFB320;
+}
+
+.hero-marketing-text h5 {
+    color: #eee;
+    font-size: 0.85em;
+    font-weight: 300;
+    max-width: 500px;
+    line-height: 2;
+    margin-bottom: 2.5em;
+}
+
+.hero-marketing-text button {
+    background-color: #FFB320;
+    color: #131313;
+    border-radius: 25px;
+    padding: 15px 25px;
+    font-size: 0.85em;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+/* main ends */
